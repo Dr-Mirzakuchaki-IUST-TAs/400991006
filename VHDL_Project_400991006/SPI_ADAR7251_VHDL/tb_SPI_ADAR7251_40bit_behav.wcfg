@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_SPI_ADAR7251_40bit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_SPI_ADAR7251_40bit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_reset" type="logic">
+      <obj_property name="ElementShortName">i_reset</obj_property>
+      <obj_property name="ObjectShortName">i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_SPI_CSB" type="logic">
+      <obj_property name="ElementShortName">o_SPI_CSB</obj_property>
+      <obj_property name="ObjectShortName">o_SPI_CSB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_enable" type="logic">
+      <obj_property name="ElementShortName">i_enable</obj_property>
+      <obj_property name="ObjectShortName">i_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_SPI_SCLK" type="logic">
+      <obj_property name="ElementShortName">o_SPI_SCLK</obj_property>
+      <obj_property name="ObjectShortName">o_SPI_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_SPI_SDO" type="logic">
+      <obj_property name="ElementShortName">o_SPI_SDO</obj_property>
+      <obj_property name="ObjectShortName">o_SPI_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_busy" type="logic">
+      <obj_property name="ElementShortName">o_busy</obj_property>
+      <obj_property name="ObjectShortName">o_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_finish" type="logic">
+      <obj_property name="ElementShortName">o_finish</obj_property>
+      <obj_property name="ObjectShortName">o_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_reg_rd_wrb" type="logic">
+      <obj_property name="ElementShortName">i_reg_rd_wrb</obj_property>
+      <obj_property name="ObjectShortName">i_reg_rd_wrb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_SPI_SDI" type="logic">
+      <obj_property name="ElementShortName">i_SPI_SDI</obj_property>
+      <obj_property name="ObjectShortName">i_SPI_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_SPI_DIR" type="logic">
+      <obj_property name="ElementShortName">o_SPI_DIR</obj_property>
+      <obj_property name="ObjectShortName">o_SPI_DIR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_reg_addr" type="array">
+      <obj_property name="ElementShortName">i_reg_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_reg_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/i_reg_data" type="array">
+      <obj_property name="ElementShortName">i_reg_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_reg_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/o_reg_data" type="array">
+      <obj_property name="ElementShortName">o_reg_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_reg_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/TbClock" type="logic">
+      <obj_property name="ElementShortName">TbClock</obj_property>
+      <obj_property name="ObjectShortName">TbClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/TbSimEnded" type="logic">
+      <obj_property name="ElementShortName">TbSimEnded</obj_property>
+      <obj_property name="ObjectShortName">TbSimEnded</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SPI_ADAR7251_40bit/TbPeriod" type="other">
+      <obj_property name="ElementShortName">TbPeriod</obj_property>
+      <obj_property name="ObjectShortName">TbPeriod</obj_property>
+   </wvobject>
+</wave_config>
